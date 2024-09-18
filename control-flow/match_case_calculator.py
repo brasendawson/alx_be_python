@@ -14,8 +14,11 @@ match operation:
         num1 * num2
         print(f"The result is {num1 * num2}")
     case "/":
+        if num2 <=1:
+            print("Cannot divide by zero.")
         num1 / num2
         print(f"The result is {num1 / num2}")
+        
     
 
         
