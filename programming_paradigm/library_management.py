@@ -20,7 +20,6 @@ class Book:
         return not self._is_checked_out
 
     def __str__(self):
-        # String representation of the book for easy printing
         return f"{self.title} by {self.author}"
 
 
